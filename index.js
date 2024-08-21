@@ -7,7 +7,7 @@ const path = require("path");
 
 
 // Import the connectDB function
-const connectDB = require('./connect'); // Adjust the path if necessary
+const connectDB = require('./pages/connect'); // Adjust the path if necessary
 
 // Create an instance of Express
 const app = express();
